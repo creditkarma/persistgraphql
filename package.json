@@ -1,5 +1,5 @@
 {
-  "name": "persistgraphql",
+  "name": "@ck/persistgraphql",
   "version": "0.3.1",
   "description": "A build tool for GraphQL projects.",
   "main": "lib/index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Poincare/apollo-query-whitelisting.git"
+    "url": "git@github.com:creditkarma/persistgraphql.git"
   },
   "author": "Dhaivat Pandya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Poincare/persistgraphql/issues"
+    "url": "https://github.com/creditkarma/persistgraphql/issues"
   },
-  "homepage": "https://github.com/Poincare/persistgraphql#readme",
+  "homepage": "https://github.com/creditkarma/persistgraphql#readme",
   "bin": {
     "persistgraphql": "./bin/persistgraphql"
   },
@@ -50,5 +50,8 @@
   "optionalDependencies": {
     "@types/graphql": "^0.9.0",
     "@types/isomorphic-fetch": "0.0.34"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.corp.creditkarma.com:8443/artifactory/api/npm/npmck"
   }
 }
